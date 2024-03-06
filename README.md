@@ -26,7 +26,7 @@ For example, if the agent is in state S and takes the "R" action, then there is 
 ## Rewards
 The agent receives a reward of +1 for reaching the goal state (G). The agent receives a reward of 0 for all other states.
 ## Graphical Representation
-![](https://github.com/RanjithD18/rl-policy-evaluation/blob/main/1.png)
+![](https://github.com/RanjithD18/rl-policy-evaluation/blob/main/gra.png)
 ## POLICY EVALUATION FUNCTION
 ~~~
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
